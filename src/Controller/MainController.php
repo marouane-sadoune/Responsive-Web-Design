@@ -16,7 +16,7 @@ class MainController extends AbstractController
         $myShip = [
             'name' => 'USS Leafy(NC1180)',
             'class' => 'Garden',
-            'caption' => 'Jordan',
+            'captain' => 'Alice',
             'status' => 'underConstruction' 
         ];
 
