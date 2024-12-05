@@ -7,9 +7,9 @@
 
 
 <div>
-    Brows through {{ numberOfStarShips }} starships!
+    Brows through {{ ships|length * 10 }} starships!
 
-    {% if numberOfStarShips > 399 %}
+    {% if ships|length > 2 %}
 
     <p>
         {#Do you think this"shipload" will pass to legal team#}
